@@ -1,5 +1,10 @@
 # MIDI To Strudel GUI 🎹 ⚡
 
+> 💡 **Attribution & Origin**: This project is built upon and evolved from the original open-source project [**MIDI-To-Strudel**](https://github.com/Emanuel-de-Jong/MIDI-To-Strudel) created by [Emanuel de Jong](https://github.com/Emanuel-de-Jong).  
+> It extends the core conversion engine with a modern drag-and-drop GUI, intelligent drum mapping (Roland TR-909), acoustic instrument DSP sound profiles, dynamic volume/gain balancing, stereo panning, and native cross-platform execution scripts for macOS and Windows.
+
+---
+
 A modern, cross-platform Desktop GUI and CLI tool that converts MIDI files into clean, executable [Strudel](https://strudel.cc) live-coding pattern code.
 
 Designed for live-coding performers, algorithmic music creators, remixers, and electronic music producers.
@@ -118,6 +123,6 @@ $: note(`<
 
 ## 👥 Credits & Acknowledgments
 
-- Original CLI concept by [Emanuel-de-Jong](https://github.com/Emanuel-de-Jong/MIDI-To-Strudel)
-- Web version contributions by [badele](https://github.com/badele) and [rayanfer32](https://github.com/rayanfer32)
-- GUI, Drum Mappings, Acoustic DSP, Dynamic Balancing & Packaging by [martjay](https://github.com/martjay)
+- **Original Project**: [MIDI-To-Strudel](https://github.com/Emanuel-de-Jong/MIDI-To-Strudel) by [Emanuel de Jong](https://github.com/Emanuel-de-Jong) — the core MIDI parsing and Strudel pattern conversion engine.
+- **Web Version Contributors**: [badele](https://github.com/badele) and [rayanfer32](https://github.com/rayanfer32).
+- **GUI & Enhancements**: [martjay](https://github.com/martjay) — Modern Tkinter/DnD GUI, Roland TR-909 drum sound mapping, smart acoustic DSP chains, auto track volume/gain balance, stereo panning, and cross-platform packaging.
